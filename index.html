@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
+    <link rel="stylesheet" href="./css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-1.11.3.min.js"></script>
+    <script src="./js/animatescroll.min.js"></script>
+    <script src="./js/responsiveslides.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+
+    <title>Bs5-resturant page</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid px-0">
+        <div>
+          <ul class="rslides nav">
+            <li class="nav-item">
+              <img alt="banner" class="img-fluid" src="images/cover/1.jpg" />
+            </li>
+            <li class="nav-item">
+              <img alt="banner" class="img-fluid" src="images/cover/2.jpg" />
+            </li>
+            <li class="nav-item">
+              <img alt="banner" class="img-fluid" src="images/cover/3.jpg" />
+            </li>
+          </ul>
+        </div>
+        <div
+          class="
+            landing-cover
+            wow
+            animated
+            zoomIn
+            container
+            position-absolute
+            bottom-50
+            start-50
+            translate-middle
+            text-center
+          "
+        >
+          <h2 class="text-white">سفارش آنلاین - تحویل سریع</h2>
+          <div class="row justify-content-center mt-4 g-2">
+            <a
+              class="col-lg-2 col-md-4 btn col-sm-5 ms-sm-3 btn-danger"
+              href="#"
+              >ثبت نام</a
+            >
+            <a class="col-lg-2 col-md-4 col-sm-5 btn btn-secondary" href="#"
+              >ارتباط با ما</a
+            >
+          </div>
+        </div>
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow py-0">
+          <div class="container-fluid">
+            <div
+              class="row justify-content-between gx-0 w-100 align-items-center"
+            >
+              <button
+                class="navbar-toggler my-1 col-2 col-sm-1 px-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse col-9" id="mainMenu">
+                <ul
+                  class="navbar-nav ms-auto mb-2 mb-md-0 landing-nav-menu pe-0"
+                >
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-1').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                      >فعالیت ها</a
+                    >
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-2').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                      >درباره ما
+                    </a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-3').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                      >چشم انداز ها
+                    </a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-4').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                      >رستوران ها
+                    </a>
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-5').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                    >
+                      اخبار</a
+                    >
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-6').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                    >
+                      همکاران</a
+                    >
+                  </li>
+                  <li class="nav-item px-lg-1">
+                    <a
+                      class="nav-link px-2"
+                      aria-current="page"
+                      href="#"
+                      onclick="$('#section-7').animatescroll({scrollSpeed:1000,easing:'easeOutCubic'},0);"
+                    >
+                      تماس با ما
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <a class="navbar-brand col-10 col-sm-3 me-0 text-start" href="/"
+                ><img
+                  alt="logo"
+                  src="./images/logo-cover.png"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="featured-landing" id="section-1">
+        <div class="wrapper container-fluid">
+          <div class="text-white text-center row">
+            <h2>سفارش آنلاین - تحویل سریع</h2>
+          </div>
+          <hr />
+          <div class="featured wow animated fadeIn row gy-5 mt-3">
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-edit"></i> فست فود</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-users"></i> بهترین رستوران های ایران</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-tags"></i> سفارش آنلاین</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-comment"></i> دلیوری غذا</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-leaf"></i> زندگی سالم در غذای سالم</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <h3><i class="fa fa-coffee"></i> تحویل سریع غذا</h3>
+              <p>
+                لورم ایپسوم یا طرح‌نما به متنی آزمایشی و بی‌معنی در صنعت چاپ،
+                صفحه‌آرایی و طراحی گرافیک گفته می‌شود.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="about-landing pb-4" id="section-2">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-sm-7 pt-5 px-md-5">
+              <h3 class="px-lg-4 pb-3">درباره ما</h3>
+              <p class="wow animated fadeIn px-lg-4">
+                غذای سریع عنوانی است برای غذاهایی که به سرعت طبخ و آماده
+                می‌شوند. انواع ساندویچ به ویژه همبرگر از فست فودهای رایج هستند.
+                فست فود در مورد غذاهای خانگی به کار نمی‌رود. بلکه بیش تر اشاره
+                به غذاهایی می‌کند که در رستوران‌ها تهیه می‌شوند. مک دونالد و کی
+                اف سی از رستوران‌های مشهوری هستند که در سراسر دنیا غذای سریع
+                ارائه می‌دهند. یک غذای سریع در خیلی از کشورها شامل یک ساندویچ
+                (همبرگر، مرغ و مانند آن)، سیب زمینی سرخ کرده و یک نوشابه گازدار
+                است.
+              </p>
+            </div>
+            <div
+              class="
+                col-lg-4 col-sm-5
+                wow
+                animated
+                zoomIn
+                justify-content-center
+              "
+            >
+              <img src="images/Statue.png" alt="" class="img-fluid pe-5" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="views wow animated fadeIn" id="section-3">
+        <div class="container">
+          <p class="row pt-5">
+            طراح گرافیک از این متن به عنوان عنصری از ترکیب بندی برای پر کردن
+            صفحه و ارایه اولیه شکل ظاهری و کلی طرح سفارش گرفته شده استفاده می
+            نماید، تا از نظر گرافیکی نشانگر چگونگی نوع و اندازه فونت و ظاهر متن
+            باشد
+          </p>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="project-landing py-5" id="section-4">
+        <div class="container-fluid">
+          <div class="row">
+            <h3 class="text-center">رستوران - فست فود</h3>
+          </div>
+          <hr />
+          <div class="row wow animated fadeIn justify-content-center">
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/1.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>پیتزا خوشمزه</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/2.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>همبرگر من</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/3.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>رستوران خانه</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/4.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>فست فود</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/5.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>همبرگر خاص</h2>
+              </figcaption>
+            </figure>
+
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/6.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>غذای خاص</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/7.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>خوش طعم</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/8.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>سیب زمینی</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/9.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>نون ساندویچ</h2>
+              </figcaption>
+            </figure>
+            <figure class="col-lg-2 col-md-3 col-sm-4 mx-lg-2 mx-1 px-0">
+              <img src="images/thumb/10.jpg" alt="" class="img-fluid w-100" />
+              <figcaption>
+                <h2>مرغ سوخاری</h2>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="blog-landing" id="section-5">
+        <div class="container px-md-5">
+          <div class="row">
+            <h3>آخرین اخبار</h3>
+          </div>
+          <hr />
+          <div
+            class="
+              content
+              wow
+              animated
+              fadeIn
+              row
+              px-md-5
+              justify-content-center
+            "
+          >
+            <article class="col-12 row post px-0 mb-3">
+              <div class="col-3 d-none d-sm-flex px-0">
+                <img
+                  src="images/post/post_image_1.jpg"
+                  alt=""
+                  class="img-fluid h-100"
+                />
+              </div>
+              <div class="col-sm-9 col-12">
+                <h2>بهترین پیتزا تهران در فست فود برگر</h2>
+                <p>
+                  معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی
+                  و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود
+                  نشان دهند
+                </p>
+                <a href="#" class="more">ادامه مطلب</a>
+              </div>
+            </article>
+            <article class="col-12 row post px-0 mb-3">
+              <div class="col-sm-9 col-12">
+                <h2>بهترین پیتزا تهران در فست فود برگر</h2>
+                <p>
+                  معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی
+                  و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود
+                  نشان دهند
+                </p>
+                <a href="#" class="more">ادامه مطلب</a>
+              </div>
+              <div class="col-3 d-none d-sm-flex px-0">
+                <img
+                  src="images/post/post_image_2.jpg"
+                  alt=""
+                  class="img-fluid h-100"
+                />
+              </div>
+            </article>
+            <article class="col-12 row post px-0 mb-3">
+              <div class="col-3 d-none d-sm-flex px-0">
+                <img
+                  src="images/post/post_image_3.jpg"
+                  alt=""
+                  class="img-fluid h-100"
+                />
+              </div>
+              <div class="col-sm-9 col-12">
+                <h2>بهترین پیتزا تهران در فست فود برگر</h2>
+                <p>
+                  معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی
+                  و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود
+                  نشان دهند
+                </p>
+                <a href="#" class="more">ادامه مطلب</a>
+              </div>
+            </article>
+            <article class="col-12 row post px-0 mb-3">
+              <div class="col-sm-9 col-12">
+                <h2>بهترین پیتزا تهران در فست فود برگر</h2>
+                <p>
+                  معمولا طراحان گرافیک برای صفحه‌آرایی، نخست از متن‌های آزمایشی
+                  و بی‌معنی استفاده می‌کنند تا صرفا به مشتری یا صاحب کار خود
+                  نشان دهند
+                </p>
+                <a href="#" class="more">ادامه مطلب</a>
+              </div>
+              <div class="col-3 d-none d-sm-flex px-0">
+                <img
+                  src="images/post/post_image_4.jpg"
+                  alt=""
+                  class="img-fluid h-100"
+                />
+              </div>
+            </article>
+          </div>
+          <div class="row justify-content-center py-5">
+            <a href="#" class="col-7 col-sm-3 show-more">نمایش همه</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="customer-landing" id="section-6">
+        <div class="wrapper">
+          <div class="featured-title">
+            <h3>همکاران - مشتریان</h3>
+          </div>
+          <hr />
+          <div id="owl-demo" class="wow animated fadeIn">
+            <div class="item">
+              <a href="#"><img src="./images/customer/client1.png" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./images/customer/client2.png" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./images/customer/client3.png" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./images/customer/client4.png" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./images/customer/client5.png" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./images/customer/client1.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-landing container-fluid">
+      <div class="row">
+        <div class="col-lg-7 mb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d386082.32223874656!2d-74.27909976137371!3d40.887932612307075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1594019038377!5m2!1sen!2s"
+            width="100%"
+            height="335"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="col-lg-5">
+          <form class="row justify-content-center">
+            <input
+              type="text"
+              name="fullname"
+              placeholder="نام و نام خانوادگی"
+              class="col-10"
+            />
+            <input
+              type="email"
+              name="mail"
+              placeholder="ایمیل"
+              class="col-10"
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="موضوع"
+              class="col-10"
+            />
+            <textarea placeholder="پیام شما" class="col-10"></textarea>
+            <input type="submit" name="render" value="ارسال" class="col-10" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-landing" id="section-7">
+      <div class="social-icon">
+        <ul>
+          <li>
+            <a href="#" class="top"
+              ><span class="tooltip">فیس بوک</span><i class="fa fa-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="top"
+              ><span class="tooltip">گوگل پلاس</span
+              ><i class="fa fa-google-plus"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="top"
+              ><span class="tooltip">توییتر</span><i class="fa fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="top"
+              ><span class="tooltip">اینستگرام</span
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="info" role="content-info">
+        <p>پروژه 68 طراح مهدی زمانی ۱۶/۴/۹۹</p>
+      </div>
+    </footer>
+  </body>
+</html>
